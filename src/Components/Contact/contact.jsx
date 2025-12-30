@@ -21,26 +21,13 @@ const ContactSection = () => {
                                 <div>
                                     <div className="icon-wrapper">
                                         <div className="icon-box">
-                                            <i className="fa-solid fa-phone-volume accent-color"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="d-grid">
-                                    <span>Phone Number</span>
-                                    <h5>+1 (62) 987 7543</h5>
-                                </div>
-                            </div>
-                            <div className="d-flex flex-column flex-md-row align-items-center text-md-start text-center gspace-2">
-                                <div>
-                                    <div className="icon-wrapper">
-                                        <div className="icon-box">
                                             <i className="fa-solid fa-envelope accent-color"></i>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="d-grid">
                                     <span>Email Address</span>
-                                    <h5>hello@markoagency.com</h5>
+                                    <h5>info@cypher.com</h5>
                                 </div>
                             </div>
                             <div className="d-flex flex-column flex-md-row align-items-center text-md-start text-center gspace-2">
@@ -53,7 +40,20 @@ const ContactSection = () => {
                                 </div>
                                 <div className="d-grid">
                                     <span>Office Address</span>
-                                    <h5>Marko HQ - 902 Digital Lane, San Francisco, CA 94110, USA</h5>
+                                    <h5>Osijek, Hrvatska</h5>
+                                </div>
+                            </div>
+                            <div className="d-flex flex-column flex-md-row align-items-center text-md-start text-center gspace-2">
+                                <div>
+                                    <div className="icon-wrapper">
+                                        <div className="icon-box">
+                                            <i className="fa-solid fa-phone-volume accent-color"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="d-grid">
+                                    <span>Office Working Hours</span>
+                                    <h5>08:00 - 16:00</h5>
                                 </div>
                             </div>
                         </div>
