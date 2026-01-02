@@ -3449,6 +3449,7 @@ body.lightmode .newsletter-layout{
     transition: all 0.3s ease-in-out;
 }
 
+
 /* 41.2 Stars */
 
 .stars{
@@ -3952,7 +3953,7 @@ body.lightmode .newsletter-layout{
 }
 
 .accordion .accordion-item {
-    background-color: transparent                                                   ;
+    background-color: transparent;
     border: none;
     outline: none;
     border-radius: 30px;
@@ -3966,7 +3967,7 @@ body.lightmode .newsletter-layout{
     flex-direction: row;
     gap: 30px 30px;
     align-items: center;
-    background-color: var(--secondary)                                                   ;
+    background-color: var(--secondary);
     border: 1px solid var(--accent-color-3);
     color: var(--text-color);
     padding: 30px 30px 30px 0px;
@@ -4338,4 +4339,48 @@ body.lightmode .cta-service-banner::before{
     align-self: center;
     background-color: transparent;
     background-image: radial-gradient(at center center, var(--accent-color-6) 0%, var(--accent-transparent) 70%);
+}
+
+/* ================== 57. Projects ================== */
+
+/* 57.1 Contact Link */
+
+.small-icon-circle {
+    position: relative;
+    background-color: var(--accent-color);
+    color: var(--secondary);
+    font-size: var(--font-size-sm);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+/* 57.2 Slider next and previous button container*/
+.projects-controls{
+    display: flex;
+    gap: 5px;
+    padding: 10px 0 10px 0;
+}
+
+/* 57.3 Slider next and previous button */
+.projects-nav {
+    position: relative;
+    background-color: var(--accent-color);
+    color: var(--primary);
+    font-size: var(--font-size-2xl);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
 }

@@ -73,6 +73,11 @@ function Navbar() {
                   Services
                 </NavLink>
               </li>
+              <li className="nav-item">
+                <NavLink to="/works" className="nav-link">
+                  Works
+                </NavLink>
+              </li>
 
               {/* <li className="nav-item dropdown">
                 <a
